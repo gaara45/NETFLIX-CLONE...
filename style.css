@@ -1,0 +1,379 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+}
+.main {
+  background-image: url("assets/iamges/IN-en-20240122-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  height: 644px;
+  width: 100%;
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(1200px, 110vw);
+}
+
+.main .box {
+  opacity: 0.69;
+  height: 644px;
+  width: 100%;
+  background-color: black;
+  position: absolute;
+  top: 0;
+}
+
+nav {
+  max-width: 60vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+nav img {
+  height: 140px;
+  position: relative;
+  z-index: 10;
+}
+
+.btn {
+  position: relative;
+  z-index: 10;
+  padding: 2px;
+  margin: 8px;
+  border-radius: 4px;
+  height: 30px;
+  width: 10vw;
+  border-style: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: rgba(23, 23, 23, 0.4);
+  border: 1px solid white;
+  color: white;
+  font-family: "Helvetica Neue", "Segoe UI", "sans-serif";
+  cursor: pointer;
+}
+
+.btn-red-sn {
+  width: 67px;
+  background-color: red;
+  border-style: none;
+  color: white;
+  font-weight: 500;
+  line-height: 14px;
+  font-size: 14px;
+  font-family: "Helvetica Neue", "Segoe UI", "sans-serif";
+}
+
+.hero {
+  color: white;
+  height: calc(100% - 100px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  gap: 15px;
+  padding: 0 20px;
+}
+
+.hero > :nth-child(1) {
+  font-family: "Martel Sans", sans-serif;
+  font-weight: 900;
+  font-size: 48px;
+  text-align: center;
+}
+
+.hero > :nth-child(2) {
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+}
+
+.hero > :nth-child(3) {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.line {
+  height: 7px;
+  background-color: rgb(25, 23, 23);
+}
+
+.input {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-red {
+  background-color: red;
+  color: white;
+  padding: 11px 25px 14px;
+  border-style: none;
+  font-weight: 500;
+  line-height: 12px;
+  font-size: 24px;
+  font-family: "Helvetica Neue", "Segoe UI", "sans-serif";
+  border-radius: 6px;
+}
+.eml {
+  color: white;
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 16px;
+  padding: 7px 59px 8px 14px;
+  background-color: rgba(23, 23, 23, 0.4);
+  border-style: none;
+  border-radius: 6px;
+  border-style: solid;
+}
+
+.first {
+  display: flex;
+  color: white;
+  padding: 100px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.hero span {
+  font-weight: 900;
+  font-size: 48px;
+}
+
+.secimg {
+  position: relative;
+}
+.secimg img {
+  position: relative;
+  z-index: 10;
+}
+.secimg video {
+  position: absolute;
+  top: 92px;
+  right: 79px;
+}
+
+.font {
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+  font-family: "Martel Sans", sans-serif;
+}
+.font > :nth-child(1) {
+  font-weight: bolder;
+  font-size: 48px;
+}
+.font > :nth-child(2) {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.second {
+  display: flex;
+  color: white;
+  padding: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.font2 {
+  display: flex;
+  flex-direction: column;
+  font-family: "Martel Sans", sans-serif;
+  font: bolder;
+  color: white;
+  font-size: 48px;
+}
+.font2 > :nth-child(2) {
+  font-size: 24px;
+  font-weight: bolder;
+}
+.secimg2 {
+  position: relative;
+}
+
+.secimg3 {
+  position: relative;
+}
+.secimg3 img {
+  position: relative;
+  z-index: 1;
+}
+
+.secimg3 video {
+  position: absolute;
+  width: 400px;
+  top: 40px;
+  right: 125px;
+  z-index: 0;
+}
+
+
+.faq h2{
+  color: white;
+  text-align: center;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 48px;
+  padding: 10px;
+  font-family: "Helvetica Neue", "Segoe UI", "sans-serif";
+}
+
+.faq{
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+
+.faqbox svg{
+  filter: invert(1);
+}
+.faqbox{
+  display: flex;
+  max-width: 70vw;
+  justify-content: space-between;
+  margin: 10px auto ;
+  color: white;
+  background-color:#2d2d2d;
+  padding: 24px;
+  font-weight: 400;
+  font-size: 24px;
+  font-family: "Martel Sans", sans-serif;
+  cursor: pointer;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 25px;
+  justify-content: center;
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "Helvetica Neue", "Segoe UI", "sans-serif";
+}
+footer{
+  max-width: 60vw;
+  color: white;
+  margin: auto;
+}
+footer .question{
+  padding:20px;
+
+}
+.footer a{
+  color: white;
+  padding: 3px;
+  font-size: 14px;
+}
+.footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 10px;
+  margin: auto;
+}
+.footeritem{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+}
+
+@media screen and (max-width:1120px) {
+  .first{
+    flex-wrap: wrap;
+  }
+  .second{
+    flex-wrap: wrap;
+  }
+  nav{
+    width: 100vw;
+  }
+  .secimg img {
+    width: 305px;
+}
+
+.secimg video {
+  width: 184px;
+  top: 22px;
+  left: 55px;
+}
+.secimg3 img {
+  width: 305px;
+}
+
+.secimg3 video {
+  width: 184px;
+  top: 22px;
+  left: 55px;
+
+}
+
+.line{
+  max-width: 105vw;
+}
+.faq h2 {
+  text-align: center;
+  font-size: 32px;
+}
+
+footer {
+  max-width: 90vw;
+  padding: 75px 0;
+}
+.hero> :nth-child(1) {
+  font-size: 32px;
+}
+
+.hero> :nth-child(2) {
+  font-size: 18px;
+}
+
+.hero> :nth-child(3) {
+  font-size: 18px;
+}
+
+.btn-red {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin: 10px auto;
+}
+
+}
+
+@media screen and (max-width: 1120px) {
+
+  .footer {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 25px;
+  }
+}
+
+
+.footer a {
+  font-size: 14px;
+  color: white;
+}
+
+.footeritem {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+
+
+
